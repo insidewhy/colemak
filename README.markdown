@@ -35,3 +35,6 @@ Add to .muttrc:
 
 Add to .tmux.conf:
     source-file ~/.colemak/tmux
+
+Remap less:
+    lesskey ~/.colemak/less
