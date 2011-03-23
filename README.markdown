@@ -5,14 +5,14 @@ Rather than perform a complete remapping this keeps most keys in their colemak p
     cd
     git clone git://github.com/tuxjay/colemak .colemak
 
-from .vimrc
+Add to .vimrc:
     source ~/.colemak/vimrc
 
-from .zshrc
+Add to .zshrc:
     source ~/.colemak/zshrc
 
-from .pentadactylrc/.vimperatorrc
+Add to .pentadactylrc/.vimperatorrc:
     source ~/.colemak/vimrc
 
-from .muttrc
+Add to .muttrc:
     source ~/.colemak/muttrc
