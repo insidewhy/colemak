@@ -1,5 +1,5 @@
 # Notes
-Rather than perform a complete remapping this keeps most keys in their colemak positions. However it remaps some keys to their qwerty positions to get qwerty "h, j, k and l" movement back.
+I call this the "give me h, j, k and l back but don't screw around with much else" mapping. Most keys are in their colemak positions, few are in qwerty, and only one is in neither.
 
 ## Keys in qwerty position
  * h, j, k, l - colemak h, n, e and i: movement.

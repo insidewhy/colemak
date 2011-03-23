@@ -22,7 +22,7 @@ noremap k n
 noremap K N
 nnoremap u i
 nnoremap U I
-nnoremap i U
+nnoremap I U
 nnoremap l u
 nnoremap L U
 nnoremap N J
