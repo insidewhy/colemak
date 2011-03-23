@@ -1,5 +1,21 @@
 # Notes
-Rather than perform a complete remapping this keeps most keys in their colemak positions. However it remaps some keys to their qwerty positions to get qwerty "h, j, k and l" movement back. The only key that isn't in colemak or qwerty position (due to the logistics) is "j" and "J" for qwerty "e" and "E".
+Rather than perform a complete remapping this keeps most keys in their colemak positions. However it remaps some keys to their qwerty positions to get qwerty "h, j, k and l" movement back.
+
+## Keys in qwerty position
+ * h, j, k, l - colemak h, n, e and i: movement.
+ * n - colemak k: next search result.
+ * N - colemak K: previous search result.
+ * i - colemak u: go to insert mode.
+ * I - colemak U: go to insert mode at begging of current line.
+ * u - colemak l: undo.
+ * U - colemak L: undo on current line.
+ * ctrl-j - colemak ctrl-n: enter.
+
+## Keys in neither qwerty nor colemak position.
+ * j - qwerty e: cursor to end of word.
+ * J - qwerty E: cursor to last non-whitespace.
+
+All other keys are in colemak position.
 
 # Installation
     cd
