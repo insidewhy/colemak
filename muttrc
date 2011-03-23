@@ -1,18 +1,14 @@
-bind index \cn display-message
-bind index n next-undeleted
-bind index N next-entry
-bind index e previous-undeleted
-bind index E previous-entry
-bind pager e previous-line
-bind pager n next-line
-bind alias e previous-entry
-bind alias n next-entry
-bind attach e previous-entry
-bind attach n next-entry
+bind index,pager n next-undeleted
+bind index,pager N next-entry
+bind index,pager e previous-undeleted
+bind index,pager E previous-entry
+bind index,pager,alias k search-next
 
-# switch out old bindings
+bind alias,attach e previous-entry
+bind alias,attach n next-entry
+
+bind index \cn display-message
 bind index j edit
 bind index J toggle-new
 
-# n goes to the qwerty position
-bind index k search-next
+bind pager u edit
