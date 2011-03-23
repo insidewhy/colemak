@@ -1,5 +1,5 @@
 # Notes
-I call this the "give me h, j, k and l back but don't screw around with much else" mapping. Most keys are in their colemak positions, few are in qwerty, and only one is in neither.
+I call this the "give me h, j, k and l back but don't screw around with much else" mapping. Most keys are in their colemak positions, few are in qwerty, and only one is in neither. I found getting used ":" discomforting initially, but now find this mapping to be very usable.
 
 ## Keys in qwerty position
  * h, j, k, l - colemak h, n, e and i: movement.
@@ -13,9 +13,9 @@ I call this the "give me h, j, k and l back but don't screw around with much els
 
 ## Keys in neither qwerty nor colemak position.
  * j - qwerty e: cursor to end of word.
- * J - qwerty E: cursor to last non-whitespace.
+ * J - qwerty E: cursor before next non-whitespace word.
 
-All other keys are in colemak position.
+This is an unfortunate logistical necessity. All other keys are in colemak position.
 
 # Installation
     cd
@@ -32,3 +32,6 @@ Add to .pentadactylrc/.vimperatorrc:
 
 Add to .muttrc:
     source ~/.colemak/muttrc
+
+Add to .tmux.conf:
+    source-file ~/.colemak/tmux
