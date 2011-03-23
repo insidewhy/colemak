@@ -1,0 +1,12 @@
+bind index \cn display-message
+bind index n next-undeleted
+bind index N next-entry
+bind index e previous-undeleted
+bind index E previous-entry
+
+# switch out old bindings
+bind index j edit
+bind index J toggle-new
+
+# n goes to the qwerty position
+bind index k search-next
