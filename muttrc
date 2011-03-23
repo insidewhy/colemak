@@ -4,8 +4,8 @@ bind index,pager e previous-undeleted
 bind index,pager E previous-entry
 bind index,pager,alias k search-next
 
-bind alias,attach e previous-entry
-bind alias,attach n next-entry
+bind alias,attach,browser e previous-entry
+bind alias,attach,browser n next-entry
 
 bind index \cn display-message
 bind index j edit
