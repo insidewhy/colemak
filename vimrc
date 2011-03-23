@@ -5,9 +5,9 @@
 imap <C-n> <cr>
 cmap <C-n> <cr>
 
-" i use this (and ctrl-h) for tab navigation. commands are too slow.
-nmap <C-i> :tabnext<cr>
-imap <C-i> <Esc>:tabnext<cr>i
+" i use this (and ctrl-l) for tab navigation. commands are too slow.
+nmap <C-u> :tabnext<cr>
+imap <C-u> <Esc>:tabnext<cr>i
 
 " rotate some keys about to get qwerty "hjkl" back for movement
 map n <down>
