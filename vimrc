@@ -5,7 +5,9 @@
 imap <C-n> <cr>
 cmap <C-n> <cr>
 
-" i use this (and ctrl-l) for tab navigation. commands are too slow.
+" i use this for tab navigation. commands are too slow.
+nmap <C-l> :tabprev<cr>
+imap <C-l> <Esc>:tabprev<cr>i
 nmap <C-u> :tabnext<cr>
 imap <C-u> <Esc>:tabnext<cr>i
 
