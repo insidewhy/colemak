@@ -3,6 +3,12 @@ bind index n next-undeleted
 bind index N next-entry
 bind index e previous-undeleted
 bind index E previous-entry
+bind pager e previous-line
+bind pager n next-line
+bind alias e previous-entry
+bind alias n next-entry
+bind attach e previous-entry
+bind attach n next-entry
 
 # switch out old bindings
 bind index j edit
