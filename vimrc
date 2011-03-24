@@ -38,6 +38,7 @@ noremap J E
 nnoremap <C-w>n <C-w>j
 nnoremap <C-w>i <C-w>l
 nnoremap <C-w>e <C-w>k
-noremap K N
-noremap u i
-noremap U I
+
+" qwerty <C-w>n and <c-w>i stolen but do nothing so map back
+nnoremap <C-w>k <C-w>n
+nnoremap <C-w>l <C-w>i
