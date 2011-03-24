@@ -2,16 +2,16 @@
 " set langmap=sd,fe,tf,dg,ui,nj,ek,il,kn,yo,\\;p,pr,rs,gt,lu,jy,SD,FE,TF,DG,UI,NJ,EK,IL,KN,YO,:P,PR,RS,GT,LU,JY,o\\;,O:
 
 " get control-j back, so switch it with ctrl-n at qwerty position of j
-imap <C-n> <cr>
-cmap <C-n> <cr>
-inoremap <C-j> <C-n>
-cnoremap <C-j> <C-n>
+imap <c-n> <cr>
+cmap <c-n> <cr>
+inoremap <c-j> <c-n>
+cnoremap <c-j> <c-n>
 
 " i use this for tab navigation. commands are too slow.
-nmap <C-l> :tabprev<cr>
-imap <C-l> <Esc>:tabprev<cr>i
-nmap <C-u> :tabnext<cr>
-imap <C-u> <Esc>:tabnext<cr>i
+nmap <c-l> :tabprev<cr>
+imap <c-l> <Esc>:tabprev<cr>i
+nmap <c-u> :tabnext<cr>
+imap <c-u> <Esc>:tabnext<cr>i
 
 " rotate some keys about to get qwerty "hjkl" back for movement
 map n <down>
@@ -35,10 +35,10 @@ noremap j e
 noremap J E
 
 " window movement
-nnoremap <C-w>n <C-w>j
-nnoremap <C-w>i <C-w>l
-nnoremap <C-w>e <C-w>k
+nnoremap <c-w>n <c-w>j
+nnoremap <c-w>i <c-w>l
+nnoremap <c-w>e <c-w>k
 
-" qwerty <C-w>n and <c-w>i stolen but do nothing so map back
-nnoremap <C-w>k <C-w>n
-nnoremap <C-w>l <C-w>i
+" qwerty <c-w>n and <c-w>i stolen but do nothing so map back
+nnoremap <c-w>k <c-w>n
+nnoremap <c-w>l <c-w>i
