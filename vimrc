@@ -12,6 +12,9 @@ nmap <c-l> :tabprev<cr>
 imap <c-l> <Esc>:tabprev<cr>i
 nmap <c-u> :tabnext<cr>
 imap <c-u> <Esc>:tabnext<cr>i
+" stole redraw and go up so remap them
+noremap _l <c-l>
+noremap _u <c-u>
 
 " rotate some keys about to get qwerty "hjkl" back for movement
 map n <down>
