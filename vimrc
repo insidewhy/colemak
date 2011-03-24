@@ -22,10 +22,11 @@ noremap k n
 noremap K N
 nnoremap u i
 nnoremap U I
-nnoremap I U
 nnoremap l u
 nnoremap L U
 nnoremap N J
+nnoremap E K
+nnoremap I L
 
 " this is the only key that isn't in qwerty or colemak position
 noremap j e
