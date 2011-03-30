@@ -11,3 +11,4 @@ bind-key -t vi-copy J next-space-end
 
 bind-key -t vi-choice n down
 bind-key -t vi-choice e up
+bind-key -t vi-choice C-n choose

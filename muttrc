@@ -6,6 +6,7 @@ bind index,pager,alias k search-next
 
 bind alias,attach,browser e previous-entry
 bind alias,attach,browser n next-entry
+bind alias,attach,browser \cn select-entry
 
 bind index \cn display-message
 bind index j edit
