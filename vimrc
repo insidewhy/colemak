@@ -45,3 +45,6 @@ nnoremap <c-w>e <c-w>k
 " qwerty <c-w>n and <c-w>i stolen but do nothing so map back
 nnoremap <c-w>k <c-w>n
 nnoremap <c-w>l <c-w>i
+
+" pentadactyl binds this to history otherwise
+map <c-h> <BS>
