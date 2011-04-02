@@ -46,5 +46,6 @@ nnoremap <c-w>e <c-w>k
 nnoremap <c-w>k <c-w>n
 nnoremap <c-w>l <c-w>i
 
-" pentadactyl binds this to history otherwise
+" pentadactyl binds ctrl-h to history otherwise
 map <c-h> <BS>
+cmap <c-h> <BS>
