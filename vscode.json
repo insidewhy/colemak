@@ -1,0 +1,82 @@
+{
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["<c-n>"],
+            "after": ["<cr>"]
+        }
+    ],
+    "vim.insertModeKeyBindingsNonRecursive": [
+        {
+            "before": ["<c-j>"],
+            "after": ["<c-n>"]
+        }
+    ],
+    "vim.otherModesKeyBindings": [
+        {
+            "before": ["<c-n>"],
+            "after": ["<cr>"]
+        },
+        {
+            "before": ["n"],
+            "after": ["<down>"]
+        },
+        {
+            "before": ["e"],
+            "after": ["<up>"]
+        },
+        {
+            "before": ["i"],
+            "after": ["<right>"]
+        }
+    ],
+    "vim.otherModesKeyBindingsNonRecursive": [
+        {
+            "before": ["<c-j>"],
+            "after": ["<c-n>"]
+        },
+        {
+            "before": ["k"],
+            "after": ["n"]
+        },
+        {
+            "before": ["K"],
+            "after": ["N"]
+        },
+        {
+            "before": ["u"],
+            "after": ["i"]
+        },
+        {
+            "before": ["U"],
+            "after": ["I"]
+        },
+        {
+            "before": ["l"],
+            "after": ["u"]
+        },
+        {
+            "before": ["L"],
+            "after": ["U"]
+        },
+        {
+            "before": ["N"],
+            "after": ["J"]
+        },
+        {
+            "before": ["E"],
+            "after": ["K"]
+        },
+        {
+            "before": ["I"],
+            "after": ["L"]
+        },
+        {
+            "before": ["j"],
+            "after": ["e"]
+        },
+        {
+            "before": ["J"],
+            "after": ["E"]
+        }
+    ]
+}
