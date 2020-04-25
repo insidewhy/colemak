@@ -16,5 +16,5 @@ bind-key -T choice-mode c-n send-keys -X choose
 
 bind-key -T edit-mode-vi c-n send-keys -X enter
 
-set-hook -g before-choose-session "bind-key -Troot n send-keys -X down"
-set-hook -g after-choose-session "unbind-key -Troot n"
+# set-hook -g before-choose-session "bind-key -Troot n send-keys -X down"
+# set-hook -g after-choose-session "unbind-key -Troot n"
