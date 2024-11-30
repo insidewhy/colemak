@@ -8,9 +8,9 @@ inoremap <c-j> <c-n>
 cnoremap <c-j> <c-n>
 
 " rotate some keys about to get qwerty "hjkl" back for movement
-map n <down>
-map e <up>
-map i <right>
+noremap n j
+noremap e k
+noremap i l
 
 " move these keys to their qwerty positions because they are
 " in the way of hjkl (and E for J)
